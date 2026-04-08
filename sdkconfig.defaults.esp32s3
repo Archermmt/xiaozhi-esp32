@@ -29,3 +29,6 @@ CONFIG_USB_HOST_CONTROL_TRANSFER_MAX_SIZE=1536
 
 # LVGL Graphics
 CONFIG_LV_USE_SNAPSHOT=y
+
+#CONFIG_OTA_URL="http://192.168.1.6:8003/xiaozhi/ota/"
+CONFIG_OTA_URL="https://api.tenclass.net/xiaozhi/ota/"
